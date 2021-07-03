@@ -13,13 +13,14 @@ h1{
 .orange-color{
     color:rgb(236, 147, 162);
 }
-section{
+.flexible-container{
    display: flex;
    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding: 2%;
+    
 }
 .half-width img{
     width: 50%;
@@ -42,3 +43,24 @@ section{
     background-image: url(images/pic11.jpg);
     background-repeat: no-repeat;
 } */
+.experiance-item{
+    box-shadow: 10px 10px 10px black;
+    width: 40%;
+    margin: 5% 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    /* border-left: 10px solid rgba(61, 29, 175, 0.26); */
+}
+#web-depoloper{
+    border-left: 10px solid ;
+    border-image: linear-gradient(rgb(234, 234, 240),rgb(150, 25, 77));
+    border-image-slice: 1;
+}
+#frozen-heart{
+    border-left: 10px solid ;
+    border-image: linear-gradient(rgb(223, 111, 176),rgb(238, 236, 236));
+    border-image-slice: 1;   
+}
+footer p{
+    text-align: center;
+}
